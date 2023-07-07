@@ -24,8 +24,8 @@ components:
         - name: m2
           path: /home/user/.m2
       volumeMounts: 
-        - name: cache
-          path: /.cache
+        - name: Test
+          path: /test
       memoryLimit: 6G
       memoryRequest: 512Mi
       cpuRequest: 1000m
@@ -47,7 +47,7 @@ components:
   - name: m2
     volume:
       size: 1G
-  - name: cache
+  - name: Test
     volume:
       size: 1G
 commands:
