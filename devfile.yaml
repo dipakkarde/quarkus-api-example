@@ -23,6 +23,9 @@ components:
       volumeMounts:
         - name: m2
           path: /home/user/.m2
+      volumeMounts: 
+        - name: cache
+          path: /.cache
       memoryLimit: 6G
       memoryRequest: 512Mi
       cpuRequest: 1000m
@@ -42,6 +45,9 @@ components:
         - name: PGDATA
           value: /tmp/pgdata
   - name: m2
+    volume:
+      size: 1G
+  - name: cache
     volume:
       size: 1G
 commands:
