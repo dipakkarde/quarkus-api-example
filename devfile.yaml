@@ -24,7 +24,7 @@ components:
         - name: m2
           path: /home/user/.m2
       volumeMounts: 
-        - name: Test
+        - name: test
           path: /test
       memoryLimit: 6G
       memoryRequest: 512Mi
@@ -47,7 +47,7 @@ components:
   - name: m2
     volume:
       size: 1G
-  - name: Test
+  - name: test
     volume:
       size: 1G
 commands:
