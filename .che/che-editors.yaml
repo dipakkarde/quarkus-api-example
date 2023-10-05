@@ -1,12 +1,8 @@
 inline:
   endpoints:
-    - name: "theia"
       public: true
-      targetPort: 3100
       attributes:
         protocol: https
-        type: ide
         secure: true
-        cookiesAuthEnabled: true
-        discoverable: false
+
  
