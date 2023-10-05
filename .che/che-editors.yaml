@@ -1,1 +1,5 @@
-protocol: https
+id: eclipse/che-theia/latest        
+override:                            
+  containers:
+    endpoints:
+        protocol: http 
