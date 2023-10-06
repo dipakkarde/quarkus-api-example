@@ -1,4 +1,4 @@
-id: che-incubator/che-idea/latest
+id: che-incubator/che-code/latest
 override:
     endpoints: 
             - name: code-redirect-1
