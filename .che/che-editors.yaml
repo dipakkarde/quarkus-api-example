@@ -1,5 +1,4 @@
 id: che-incubator/che-idea/latest
 override:
-  containers:
     endpoints: 
        protocol: https
